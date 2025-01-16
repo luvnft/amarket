@@ -1,5 +1,5 @@
 import type { Chain } from "thirdweb";
-import { avalancheFuji, polygonAmoy } from "./chains";
+import { avalancheFuji, base, polygonAmoy } from "./chains";
 
 export type NftContract = {
   address: string;
@@ -20,56 +20,56 @@ export type NftContract = {
  */
 export const NFT_CONTRACTS: NftContract[] = [
   {
-    address: "0x6b869a0cF84147f05a447636c42b8E53De65714E",
-    chain: avalancheFuji,
-    title: "Steakhouse: Liberatorz",
+    address: "0xc75426805Abc184b6215F9EA9de31888B51af020",
+    chain: polygonAmoy,
+    title: "Web5 Tribe",
     thumbnailUrl:
-      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/bafybeigonh3hde5suwcb3qvkh6ljtvxv7ubfmcqbwfvi3ihoi3igd27jwe/SteakhouseLogo.svg",
+      "https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/Qmbm8m4d8D98GiLmoH3otUor6yxiXqYH5xQQqtfanKQiUp/photo-output%2032.JPEG",
     type: "ERC721",
   },
   {
-    address: "0xC5A2c72c581eA4A17e17bEeF38a9597132830401",
-    chain: avalancheFuji,
-    title: "Ugly Waifu",
+    address: "0x5405242c013203FF278c02B1e0AA102Fff49C0cd",
+    chain: base,
+    title: "Orange Food Stamp AD",
     thumbnailUrl:
-      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/bafybeidaadqapi7twzd7pjp24tu4ngsr3teubrhop7hg3jk3oj6lqysfgm/OS-LOGO.png",
-    slug: "ugly-waifu",
+      "https://bafkreiemh6ezbhhfzbn32xsuyd4cvhdzh55hccnyxyt5bnhehjjxmi6hwu.ipfs.dweb.link/",
+    slug: "Orange-Food-Stamp",
     type: "ERC721",
   },
 
   {
-    address: "0x0896Db00D8987Fba2152aa7c14c4255eBC7354cE",
-    chain: avalancheFuji,
-    title: "Unnamed Collection",
+    address: "0x78C9d5e3479aD27c4869aF9E1922C6fFb5829Ac8",
+    chain: polygonAmoy,
+    title: "DR MLK DRIVE",
     description: "",
     thumbnailUrl:
-      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/Qmct2vS78Uwug3zVtqQognskPPRmd4wRQiaDAQWt1kRJws/0.png",
-    slug: "unnamed-collection",
+      "https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/QmbvWQPtkfkQ9r4FqsTyz6T4t9yRLmyJ6ihCP2BJYQJDNq/MLK%201080.jpg",
+    slug: "dr-mlk-drive",
     type: "ERC721",
   },
   {
-    address: "0x0ACaCa3d3F64bb6e6D3564BBc891c58Bd4A4c83c",
-    chain: avalancheFuji,
-    title: "GoroBot",
+    address: "0xFfad5A63E1Ed90DaC920A11340f9DfBc0ed3d3ee",
+    chain: base,
+    title: "ATL5D AD",
     thumbnailUrl:
-      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/bafybeiay3ffxy3os56bvnu5cmq7gids4v6n4hf5nvvcb3gy2dzavi3ltnu/profile.jpg",
-    slug: "gorobot",
+      "https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/QmWoGv814suM7Z2vvkDLE4dHsERqTPnAKaLHFnSUWmhjmB/0.jpg",
+    slug: "atl5d",
     type: "ERC721",
   },
   {
-    address: "0x4b6CDEFF5885A57678261bb95250aC43aD490752",
+    address: "0x71d8395022098505909A7615EF6207c8fc3E5b12",
     chain: polygonAmoy,
-    title: "Mata NFT",
+    title: "NFT RENT AD",
     thumbnailUrl:
-      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/bafybeidec7x6bptqmrxgptaedd7wfwxbsccqfogzwfsd4a7duxn4sdmnxy/0.png",
+      "https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/QmbqTnGCsydnAXSiqFVomcYtBFNybVbh9EzmwA4T7R2mqD/Haus.jpg",
     type: "ERC721",
   },
   {
-    address: "0xd5e815241882676F772A624E3892b27Ff3a449c4",
+    address: "0x540713d47c820484cF5eAEE19B3c6131c99ec161",
     chain: avalancheFuji,
-    title: "Cats (ERC1155)",
+    title: "Hair Estate AD",
     thumbnailUrl:
-      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/bafybeif2nz6wbwuryijk2c4ayypocibexdeirlvmciqjyvlzz46mzoirtm/0.png",
+      "https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/QmeV7FZtureGpVP2nMNPuHoiE4znk7i2PphLXJqskvYrgY/0.jpg",
     type: "ERC1155",
   },
 ];

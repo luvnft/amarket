@@ -23,7 +23,7 @@ export default function Home() {
           {/* Delete this <Card /> in your own app */}
           <Card border="1px" maxW="90vw" mx="auto">
             <CardHeader>
-              <Heading size="md">Marketplace Template v2</Heading>
+              <Heading size="md">📈 Market</Heading>
             </CardHeader>
 
             <CardBody>
@@ -44,7 +44,7 @@ export default function Home() {
             </CardBody>
           </Card>
           <Heading ml="20px" mt="40px">
-            Trending collections
+           🔥Trending ADS 
           </Heading>
           <Flex
             direction="row"

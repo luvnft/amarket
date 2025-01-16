@@ -1,5 +1,5 @@
 import type { Chain } from "thirdweb";
-import { avalancheFuji, polygonAmoy, sepolia } from "./chains";
+export { sepolia, base, polygonAmoy } from "thirdweb/chains";
 
 export type Token = {
   tokenAddress: string;

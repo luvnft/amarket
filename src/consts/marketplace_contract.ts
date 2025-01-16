@@ -1,6 +1,5 @@
 import type { Chain } from "thirdweb";
-import { avalancheFuji, polygonAmoy, sepolia } from "./chains";
-import { base } from "thirdweb/chains"; // Import Base from Thirdweb chains
+import { avalancheFuji, base, sepolia, polygonAmoy } from "./chains"; 
 
 type MarketplaceContract = {
   address: string;
